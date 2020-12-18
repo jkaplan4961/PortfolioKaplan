@@ -20,3 +20,40 @@ ion-icon {
 .padding {
    margin-bottom: 50px;
 }
+body{
+  background-color: rgb(154, 196, 231);
+}
+.card{
+  border-color: #010711;
+  border-style: solid;
+  border-width: medium;
+}
+.container {
+  align-items: flex-end;
+}
+.card {
+  flex-grow: 4; /* default 0 */
+}
+.badgeImage {
+  /* border: 5px solid darkblue; */
+  width: 5rem;
+}
+.backround {
+  background-image: url("./assets/beaches.jfif");
+  
+  text-align: center;
+  height: 250px;
+  opacity: 0.2;
+  z-index: 2;
+}
+.backroundImages {
+  position: relative; text-align: center;
+}
+.backImage {
+  position: absolute;
+  top: 30%;
+}
+.badgeImage {
+  /* border: 5px solid darkblue; */
+  width: 5rem;
+}
