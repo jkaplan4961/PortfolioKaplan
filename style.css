@@ -71,3 +71,7 @@ body{
 .mb-1 {
   padding: 5px;
 }
+.rounded-circle {
+  width: 10rem;
+  align-items: flex-end; 
+}
